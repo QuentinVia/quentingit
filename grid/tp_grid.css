@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+}
+
+header{
+    height: 100px;
+    background-color: rgb(43, 182, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    height: 570px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    
+}
+
+.centre{
+    background-color: purple;
+}
+
+aside{
+    background-color: blue;
+    
+    
+}
+
+.right, .left{
+   
+    padding-left: 2%;
+}
+
+.navleft, .navright{
+    height: 200px;
+    display: grid;
+    width: 98%;
+}
+
+aside nav p{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-top: 3%;
+}
+
+footer{
+    height: 50px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

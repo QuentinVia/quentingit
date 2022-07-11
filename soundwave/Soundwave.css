@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+main{
+    width: 100%;
+    height: 670px;
+    background-color: #2F303A;
+    display: flex;
+    justify-items: space-between;
+    flex-direction: column;
+}
+
+.top{
+    
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+
+
+.center{
+    height: 60%;
+    display: flex;    
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.gauche{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.menu{
+    display: flex;
+    
+}
+h2{
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.cover{
+    width: 280px;
+    height: 280px;
+    /* display: flex; */
+    
+}
+
+.logo{
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+.logotitre{
+    display: flex;
+
+}
+
+nav section{
+    display: flex;
+    margin: 30px 0;
+}
+
+.ico{
+    height: 50px;
+    width: 50px;
+    background-color: #202027;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5%;
+    margin-right: 10px;
+
+}
+
+.icone{
+    display: flex;
+    height: 25px;
+}
+
+nav section .texte{
+    display: flex;
+    
+}
+
+h1{
+    
+    font-weight: 500;
+    width: 90%;
+    font-size: 50px;
+    color: white;
+}
+
+p{
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+
+footer{
+    background-color: #202027;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.navfooter{
+    height: 40px;
+    display: flex;
+   
+}
+
+.social{
+    display: flex;
+    margin: 5px;
+}
+
+.micone{
+    width: 15px;
+    margin-right: 7px;
+}
+
+.fright{
+    display: flex;
+    margin: 10px;
+}
+
+.fleft{
+    
+    margin: 15px 15px 0 0;
+    
+}
+
+.ensemble{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.imageg{
+    width: 0%;
+    height: 100%;
+    display: flex;
+ 
+}
+
+.femme{
+    width: 350px;
+    height: 500px;
+    margin-top: 36px;
+}
+
+.droite{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+    
+}
+
+.button{
+    height: 30px;
+    
+    /* display: flex;
+    flex-wrap: nowrap; */
+}
+
+.rejoindre{
+    height: 100%;
+    width: 25%;
+    border-radius: 5px;
+    border: none;
+    background-color: #256BBD;
+    color: white;
+}
+
+.spacing{
+    margin: 10px 0 20px 0;
+}
+
+h3{
+    color: white;
+    font-size: 65px;
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    margin-top: 80px;
+}
+
+em{
+    color: #BC3A80;
+    font-style: normal;
+    margin-left: 10px;
+}
+
+form{
+    border-radius: 25px;
+    width: 400px;
+    height: 450px;
+    background-color: #202027;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.direction{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+label{
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+input{
+    height: 40px;
+    display: flex;
+    width: 80%; 
+    margin: 0 auto;
+    border: 1px solid #535D93;
+    background-color: #ffffff00;
+    border-radius: 5px;
+    
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.inscription{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #256BBD;
+    border-radius: 10px;
+    color: white;
+}
+
+.directionb{
+    width: 81%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px){
+    .center{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .femme{
+        /* visibility: hidden; */
+        display: none;
+    }
+
+    .ensemble{
+        display: flex;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    .droite{
+        width: 100%;
+        flex-wrap: wrap;
+              
+    }
+
+    h2{
+        margin: 0;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    form{
+        margin: 0 auto;
+    }
+
+    .middle{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        
+    }
+
+    h3{
+        font-size: 45px;
+    }
+
+}
+
+@media screen and (max-width: 300px){
+    .logotitre{
+        display: none;
+    }
+}
+

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap'); /*importation de Roboto*/
+/*enlever les margin et padding*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Zone de travail*/
+body{
+    width: auto;
+    height: auto;
+    font-family: 'Roboto';
+    font-weight: 400;
+    background-image: url(/TP/TP_HTML_QUENTIN/TP_HTML/contact/photo_fond2.jpeg); /*image fond de page*/
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-origin: padding-box; */
+}
+/*block global*/
+.block{ 
+    width: 700px;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* block en tête */
+.header{
+    background-image: url(/TP/TP_HTML_QUENTIN/TP_HTML/contact/photo_fond.jpeg); /*image fond d'en tête*/
+    background-size: 500px 500px 500px; /* dimension de l'image de fond */
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat; /* image un seul exemplaire */
+    border-radius: 60px 60px 0 0; /* arrondis supérieur */
+    margin-top: 50px; 
+}
+/*block formulaire*/
+form{
+    background-color: rgba(255, 255, 255, 0.456);
+    border-radius: 0px 0 60px 60px; /* arrondis inférieur */
+}
+
+h1{
+    font-weight: 900;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+/* properties input */
+input{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    width: 600px;
+    height: 30px;
+    display: block; /* mettre les label au dessus de la zone de text */
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid; 
+    font-size: 14px;
+}
+/* properties textarea */
+textarea{
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* mettre les label au dessus de la zone de text */
+    width: 600px;
+    border: 1px solid;
+    background-color: rgba(255, 255, 255, 0);
+    resize: none;
+    font-size: 14px;
+}
+/* properties bouton */
+button{
+    border: 1px solid;
+    margin-bottom: 10px;
+    margin-left: 434px;
+    padding: 10px 50px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 18px;
+    font-weight: 500;
+}
+/* action souris sur le bouton Envoyer */
+button:hover{
+    color: white;
+    background-color: black;
+}
+/* logo BC */
+.logo{
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+}
+/* taille text label */
+.font{
+    font-size: 18px;
+}
+

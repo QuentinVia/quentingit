@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap'); /*importation de Roboto*/
+/*enlever les margin et padding*/
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+/*Zone de travail*/
+body{
+    width: 100%;
+    height: 800px;
+}
+/*alignement des blocks*/
+div{
+    display: inline-block;
+    display: flex;
+}
+/*Roboto family*/
+p{ 
+    font-family: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+/*block global*/
+.block{ 
+    width: 100%;
+    height: 100%;
+}
+/*block de gauche*/
+.sous-block1{ 
+    position: relative;
+    width: 40%;
+}
+
+.imageG {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/*overlay gauche*/  
+.overlayG {
+    position:absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    height:100%;
+    width:0;
+    background-color: #00000073;
+    overflow: hidden;
+    transition:0.5s ease;
+}
+  
+.sous-block1:hover .overlayG {
+    width: 100%;
+}
+/*fin overlay gauche*/ 
+/*text overlay gauche*/ 
+.textG {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap; /*empeche l'écrasement des mots à la fermeture de l'overlay*/
+    font-size: 36px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+/*block central*/
+.sous-block2{
+    width: 20%;
+    height: 100%;
+    display: inline;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    background-color: rgb(255, 213, 0);
+}
+
+.logo{
+    
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+
+}
+/*placement du tritre*/
+.sous-block2 p{
+    
+    font-size: 50px;
+    font-weight: 900;
+    writing-mode:vertical-lr; /*rotation 90deg haut bas*/
+    text-orientation:upright; /*en vertical haut bas*/
+    margin: 200px auto 400px auto;
+}
+/*changement des couleurs au passe du curseur*/
+.sous-block2:hover{
+    background: rgb(0, 0, 0);
+    color: white;  
+}
+/*block de droite*/
+.sous-block3{
+    position: relative;
+    width: 40%;
+    height: 100%;  
+}
+
+.imageD {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/*overlay droite*/  
+.overlayD {
+    position:absolute;
+    bottom:0;
+    right:0;
+    left:0;
+    height:100%;
+    width:0;
+    background-color: #00000073;
+    overflow: hidden;
+    transition:0.5s;
+}
+  
+.sous-block3:hover .overlayD {
+    width: 100%;
+}
+/*fin overlay droite*/ 
+/*text overlay droite*/
+.textD {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap; 
+    font-size: 36px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="contact" content="Contact"> <!--Référencement-->
+    <link rel="stylesheet" href="contact.css"> <!--lien au css-->
+    <title>Contact</title>
+</head>
+
+<body>
+    
+    <div class="block"> <!--div d'ensemble-->
+
+        <div class="header"> <!--block haut de page--> 
+        <!--logo & lien vers la page À propos-->
+        <a href="/TP/TP_HTML_QUENTIN/a_propos.html">
+        <img class="logo" src="/TP/TP_HTML_QUENTIN/TP_HTML/logo.png" alt="logo">
+        </a>
+
+        <h1>CONTACT</h1>
+
+        </div>
+
+        <!--début formulaire-->
+        <form class="font" action=""> 
+            
+            <!--input nom-->
+            <div>
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" placeholder="Votre nom" required>
+            </div>
+            <!--input prenom-->
+            <div>
+                <label for="prenom">Prénom</label>
+                <input type="text" name="prenom" placeholder="Votre prénom" required>
+            </div>
+            <!--input email-->
+            <div>
+                <label for="mail">Email</label>
+                <input type="email" name="email" placeholder="Votre e-mail" required>
+            </div>
+            <!--textarea message-->
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" cols="60" rows="10" placeholder="Entrez votre message" required></textarea>
+            </div>
+            <!--bouton d'envoie-->
+            <div>
+                <button type="submit">Envoyer</button>
+            </div>
+
+        </form> 
+        <!--fin formulaire-->
+    
+    </div>
+
+</body>
+</html>

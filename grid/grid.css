@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: yellowgreen;
+    display: grid;
+    grid-auto-rows: 150px;
+    grid-template-columns: repeat(5,1fr);
+    gap: 5px;
+    
+}
+
+
+
+.item{
+    
+    /* height: 150px; */
+    background-color: aqua;
+    text-align: center;
+    border: 1px solid black;
+    /* margin: 5px; */
+    
+}
+
+.item-1{
+    grid-column: 1/ -1;
+    grid-row: 1/ 2;
+}

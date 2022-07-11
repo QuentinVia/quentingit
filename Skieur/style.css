@@ -1,0 +1,75 @@
+@import url(/integration/assets/fonts/Merriweather-Regular.ttf);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  font-size: 12px;
+}
+
+.container{
+   width: 40%;
+   height: 800px;
+   margin: 0 auto;
+   
+}
+
+.header{
+    width: 100%;
+    height: 40%;
+    display: inline-block;
+    background-image: url(/integration/assets/images/home.jpg);
+    background-size:cover;
+    
+}
+
+.logo{
+    margin-inline-start: 15%;
+    margin-block-start: 8%;
+}
+.logo img{
+    width: 30px;
+    
+}
+
+.texte{
+    width: 37%;
+}
+
+.skieur{
+    width: 50%;
+    height: 50%;
+}
+
+.middle{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(218, 216, 216);
+    display: inline-block;
+}
+
+.bottom{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(231, 114, 114);
+    display: inline-block;
+}
+
+h1{
+    width: 35%;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-block-start: 10%;
+}
+
+h2{
+    font-size: 12px;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+h1, h2, p{
+    margin-inline-start: 15%;
+}

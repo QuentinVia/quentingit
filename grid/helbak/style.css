@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	max-width: 1000px;
+	margin: auto;
+	font-family: sans-serif;
+}
+
+.banniere{
+	height: 50px;
+	display: grid;
+	grid-template-columns: 30%;
+	
+	
+}
+
+.menu{
+	display: grid;
+	grid-column: 3/6;
+		
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+li{
+	list-style: none;
+	
+}
+
+a{
+	text-decoration: none;
+}
+
+.contenu{
+
+	width: 1000px;
+	
+}
+
+.produits{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 350px 350px 350px;
+}
+
+footer{
+	display: flex;
+	flex-direction: row;
+}
+
+.infos{
+	
+}
+
+.paiement{
+
+}

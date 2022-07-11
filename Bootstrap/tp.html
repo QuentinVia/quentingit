@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/TP/TP_HTML_QUENTIN/Bootstrap/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+    <title>TP</title>
+</head>
+
+<body>
+    <header class="text-center bg-dark bg-gradient" style="height:75vh">
+        <section class="container h-100 d-flex flex-column justify-content-evenly">
+            <img class="h-50" src="/TP/TP_HTML_QUENTIN/Bootstrap/image/avatars.svg" alt="">
+
+            <h1 class="text-white">START BOOTSTRAP</h1>
+            <h2 class="text-white h6 fw-light">Graphic Artist - Web Designer - Illustrator</h2>
+
+            <nav class="d-grid gap-2 d-md-block">
+                <a href="#about" class="btn btn-primary">About</a>
+                <a href="#contact" class="btn btn-outline-primary">Contact</a>
+            </nav>
+
+        </section>
+    </header>
+
+    <main class="container-fluid d-flex flex-column align-items-center justify-content-evenly" style="height:200vh">
+
+        <h2 id="about">ABOUT</h2>
+
+        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptate quibusdam facere
+            ipsum quia, sint natus
+            eveniet unde esse ipsa rerum cumque quaerat sequi asperiores similique tempora possimus. Provident, saepe!
+        </p>
+
+        <section class="w-75 text-start">
+            <p>HTML/CSS</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%" aria-valuenow="90"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p>JavaScript</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 80%" aria-valuenow="80"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p>PHP</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 60%" aria-valuenow="60"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p>MySQL</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 65%" aria-valuenow="65"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p>NodeJS <span class="badge bg-info bg-gradient fw-light align-top">NEW</span></p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%" aria-valuenow="70"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </section>
+
+        <section class="text-center">
+            <h2>FAQ</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat vero fugiat recusandae nihil. Placeat
+                vero fugiat recusandae nihil.</p>
+
+            <div class="dropdown">
+                <button
+                    class="btn btn-secondary dropdown-toggle w-75 bg-primary bg-opacity-10 text-primary rounded-0 text-start "
+                    type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Accordion Item #1
+                </button>
+                <ul class="dropdown-menu w-75" aria-labelledby="dropdownMenu2">
+                    <li class=""><button class="border-0 text-start" type="text"><em class="fw-bold fst-normal">Lorem
+                                ipsum dolor sit amet</em> consectetur adipisicing elit. Praesentium itaque nemo, hic
+                            repellendus ab accusamus
+                            mollitia inventore dicta velit autem ratione consectetur, explicabo ut veniam, error vel
+                            culpa atque consequatur!
+                        </button></li>
+                </ul>
+                <button
+                    class="btn btn-secondary dropdown-toggle w-75 bg-primary bg-opacity-10 text-primary rounded-0 text-start "
+                    type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                    Accordion Item #2
+                </button>
+                <ul class="dropdown-menu w-75" aria-labelledby="dropdownMenu2">
+                    <li class=""><button class="border-0 text-start" type="text"><em class="fw-bold fst-normal">Lorem
+                                ipsum dolor sit amet</em> consectetur adipisicing elit. Praesentium itaque nemo, hic
+                            repellendus ab accusamus
+                            mollitia inventore dicta velit autem ratione consectetur, explicabo ut veniam, error vel
+                            culpa atque consequatur!
+                        </button></li>
+                </ul>
+                    <button
+                        class="btn btn-secondary dropdown-toggle w-75 bg-primary bg-opacity-10 text-primary rounded-0 text-start "
+                        type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                        Accordion Item #3
+                    </button>
+                <ul class="dropdown-menu w-75" aria-labelledby="dropdownMenu2">
+                    <li class=""><button class="border-0 text-start" type="text"><em class="fw-bold fst-normal">Lorem
+                            ipsum dolor sit amet</em> consectetur adipisicing elit. Praesentium itaque nemo, hic
+                            repellendus ab accusamus
+                            mollitia inventore dicta velit autem ratione consectetur, explicabo ut veniam, error vel
+                            culpa atque consequatur!
+                        </button></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="text-center">
+            <h2 id="contact">CONTACT</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt molestias nisi nulla, optio, suscipit
+                architecto eos excepturi voluptate ipsum odit et sequi fuga incidunt temporibus labore</p>
+
+            <form class="text-start w-75 mx-auto">
+                <div class="mb-3">
+                    <label for="first-name" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="first-name" placeholder="First name">
+                </div>
+                <div class="mb-3">
+                    <label for="last-name" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="last-name" placeholder="Last name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="area" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="area" rows="3"></textarea>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        J'accepte les <a href="#">CGU</a>
+                    </label>
+                </div>
+
+                <input class="btn btn-primary mt-3" type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+<script src="/TP/TP_HTML_QUENTIN/Bootstrap/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

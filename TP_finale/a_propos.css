@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap'); /*importation de Roboto*/
+/*enlever les margin et padding*/
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+/*Zone de travail*/
+body{
+    width: 100%;
+    height: 800px;   
+}
+/*Roboto family*/
+p, h1, h2, h3 a{
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+/*block global*/
+.block{
+    width: 100%;
+    height: 100%;
+    background-color: cyan;
+    display: inline-block;
+    margin: auto;
+    display: flex;
+}
+/*block de gauche*/
+.sous-block1{
+    width: 40%;
+    height: 100%;
+    background: rgb(44, 255, 2);
+    display: inline-block;    
+}
+
+.sous-block1 img{
+    width: 100%;
+    height: 100%;   
+}
+/*block central*/
+.sous-block2{
+    width: 20%;
+    height: 100%;
+    background: rgb(255, 213, 0);
+    text-align: center;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.title{
+    font-size: 50px;
+    font-weight: 900;
+    writing-mode:vertical-lr;
+    text-orientation:upright;
+    margin: 200px auto 400px auto;
+}
+
+.sous-block2:hover{
+    color: yellow;
+    background: black;
+}
+/*block de droite*/
+.sous-block3{
+    width: 40%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+/*titre de droite h1*/
+.sous-block3 h1{
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding: 100px;
+    text-align: center;
+}
+/*titre de droite h2*/
+.sous-block3 h2{
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+/*titre de droite h3 " */
+.sous-block3 h3{
+    font-size: 80px;
+    font-style: italic;
+    text-align: center;
+}
+/*zone de text*/
+.sous-block3 p{
+    font-size: 16px;
+    text-justify: auto;
+    padding: 0 60px 50px 60px;
+    text-align: center;
+}
+/*nom fin de page (list)*/
+.signature{
+    margin-left: 220px;
+    padding-bottom: 100px;
+    font-style: italic;
+}
+
+.button{ /*placement du bouton et contour*/
+display: flex;
+border: 2px solid white;
+background: black;
+padding: 15px 60px;
+border-radius: 45px;
+color: white;
+}
+
+a{
+    text-decoration: none;
+}
+/*action curseur*/
+/* .button a:hover{
+    color: yellow;    
+} */
+
+.button:hover{
+    border-color: yellow;
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+
