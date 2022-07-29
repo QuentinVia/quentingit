@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    background-color: rgb(18, 0, 117);
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 40%;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    background-color: #000;
+}
+
+h1{
+    margin: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    background-color: rgb(255, 0, 0);
+}
+
+h2{
+    border: 2px solid;
+    margin: 5px;
+    width: 50%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+button{
+    width: 20%;
+    display: flex;
+    align-self: center;
+    margin: 5px;
+    justify-content: center;
+    background-color: rgb(255, 0, 195);
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+span{
+    margin-left: 10px;
+}
+
+input{
+    background-color: #000;
+    border: none;
+    color: white;
+}
+
+.bot{
+    display: flex;
+    align-items: center;
+    height: 60%; 
+}
+
+.wi, .lo{
+    color: red;
+    border-color: #fff;
+
+}
+
+#win, #lose{
+    color: #fff;
+}
