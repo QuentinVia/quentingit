@@ -1,0 +1,16 @@
+<section class="bg-light p-5 rounded">
+<h2>Ma liste de séries préférées</h2>
+
+<app-series-list 
+[series]="series"
+(addSerie)="addSerie($event)"
+[seriesIsLoaded]="seriesIsLoaded"
+[seriesIsLoading]="seriesIsLoading"
+>
+</app-series-list>
+</section>
+
+
+
+
+

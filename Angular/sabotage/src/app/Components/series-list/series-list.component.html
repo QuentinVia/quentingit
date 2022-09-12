@@ -1,0 +1,27 @@
+<div *ngIf="seriesIsLoading">
+    <fa-icon [icon]="faCircleNotch" [spin]="true"></fa-icon>
+</div>
+
+<ng-container *ngIf="seriesIsLoaded">
+<ol>
+    
+    <li *ngFor="let serie of series" class="blue" [class.red]="serie === 'Good Doctor' ">
+    <span *ngIf="serie ==='Stranger Things' "><fa-icon [icon]="faCheck" ></fa-icon></span> {{ serie }} </li>
+    <!-- <fa-icon [icon]="faCoffee"></fa-icon> -->
+</ol>
+
+<article class="row">
+    <div class="col-4">
+        <form (submit)="submit()">
+            <div class="mb-3">
+                <label for="newSerie" class="form-label">
+                    Nouvelle série
+                </label>
+                <input type="text" class="form-control" name="newSerie" id="newSerie" [(ngModel)]="newSerie">
+            </div>
+            <button [disabled]="checkForm()" class="btn btn-primary" type="submit">Ajouter une série</button>
+        </form>
+    </div>
+
+</article>
+</ng-container>

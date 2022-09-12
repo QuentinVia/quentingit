@@ -1,0 +1,26 @@
+<ng-container *ngIf="communesIsLoaded">
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Nom</th>
+                <th scope="col">Code</th>
+                <th scope="col">Code région</th>
+                <th scope="col">Codes Postaux</th>
+                <th scope="col"><button (click)="croissant()"><fa-icon [icon]="faArrowDown"></fa-icon></button> population <button (click)="decroissant()"><fa-icon [icon]="faArrowUp"></fa-icon></button></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let commune of getCommunes()">
+                <td>{{ commune.nom }}</td>
+                <td>{{ commune.code }}</td>
+                <td>{{ commune.codeRegion }}</td>
+                <td>{{ commune.codesPostaux }}</td>
+                <td>{{ commune.population }}</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <pagination [totalItems]="getLength()" [(ngModel)]="currentPage" previousText="Précédent" nextText="Suivant" [maxSize]="25"></pagination>
+    
+</ng-container> 

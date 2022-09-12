@@ -1,0 +1,10 @@
+.red{
+    color: red;
+    font-weight: bold;
+
+}
+
+.blue:nth-child(3){
+    color: blue;
+    font-weight: bold;
+}
