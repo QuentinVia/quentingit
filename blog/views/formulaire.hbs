@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="m-auto" style="width: 30rem;">
+        <h1 class="mt-4 mb-4 text-center text-decoration-underline">Création d'articles</h1>
+
+        <form class="border border-1 border-dark p-3 rounded-5" method="POST" enctype="application/x-www-form-urlencoded " action="/formulaire">
+            <div class="form-group mb-3">
+                <label for="exampleFormControlSelect1" class="mb-1">Choix de la catégorie:</label>
+                <select name="categorie" class="form-control" id="exampleFormControlSelect1">
+                    <option>Entrée</option>
+                    <option>Plat</option>
+                    <option>Dessert</option>
+                </select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="exampleFormControlTextarea1">Titre de la recette:</label>
+                <input name="titre" class="form-control" type="text" placeholder="Gateaux au chocolat">
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="exampleFormControlTextarea1">Recette:</label>
+                <textarea name="recette" class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    style="resize: none;"></textarea>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="exampleFormControlFile1">Image recette:</label>
+                <input name="image" type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </section>
+</body>
+
+</html>
